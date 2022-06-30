@@ -1,6 +1,4 @@
-import Avatar from "antd/lib/avatar/avatar";
 import Card from "antd/lib/card/Card";
-import { Button } from "antd/lib/radio";
 import Tooltip from "antd/lib/tooltip";
 import {
   GithubOutlined,
