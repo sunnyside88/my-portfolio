@@ -11,14 +11,26 @@ const Project = () => {
             title="Team UI Mock Up"
             extra={
               <Tooltip placement="top" title="to Github">
-                <a href="https://github.com/sunnyside88/team-mockup">
+                <a
+                  href="https://github.com/sunnyside88/team-mockup"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <LinkOutlined />
                 </a>
               </Tooltip>
             }
           >
             This is a static UI Teams Mockup site by using Ant Design
-            components.
+            components. View{" "}
+            <a
+              href="https://team-mockup.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              here
+            </a>
+            .
           </Card>
         </Col>
         <Col span={8}>
@@ -26,7 +38,11 @@ const Project = () => {
             title="PyQT Mini Project"
             extra={
               <Tooltip placement="top" title="to Github">
-                <a href="https://github.com/sunnyside88/PyQt-Mini-Project">
+                <a
+                  href="https://github.com/sunnyside88/PyQt-Mini-Project"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <LinkOutlined />
                 </a>
               </Tooltip>
@@ -41,7 +57,11 @@ const Project = () => {
             title="Concert Booking App"
             extra={
               <Tooltip placement="top" title="to Github">
-                <a href="https://github.com/sunnyside88/concertBookingApp">
+                <a
+                  href="https://github.com/sunnyside88/concertBookingApp"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <LinkOutlined />
                 </a>
               </Tooltip>
