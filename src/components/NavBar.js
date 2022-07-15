@@ -37,13 +37,13 @@ const NavBar = ({ setActiveKey }) => {
         Connect
       </Menu.Item>
       <Menu.Item
-        key="blog"
+        key="project"
         icon={<BulbOutlined />}
         onClick={() => {
           setActiveKey(4);
         }}
       >
-        Blog
+        Projects
       </Menu.Item>
     </Menu>
   );

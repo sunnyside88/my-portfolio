@@ -2,6 +2,7 @@ import { useState } from "react";
 import NavBar from "../components/NavBar";
 import About from "./About";
 import Connect from "./Connect";
+import Project from "./Project";
 import Tool from "./Tool";
 
 const Home = () => {
@@ -14,6 +15,8 @@ const Home = () => {
         return <Tool></Tool>;
       case 3:
         return <Connect></Connect>;
+      case 4:
+        return <Project></Project>;
       default:
         return "To be continued";
     }
